@@ -29,6 +29,7 @@
 ### Installing kubeadm
 #### Update : Previous Kubernetes v1.29 documentation link is no longer stable. Use the current Kubernetes documentation and select the desired minor version from the official install guide.
 #### ref : [Installing kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/) (~[kubernetes v1.29](https://v1-29.docs.kubernetes.io/ko/docs/setup/production-environment/tools/kubeadm/install-kubeadm/)~)
+In the official Kubernetes installation example, replace the minor version in the `pkgs.k8s.io` path with the target Kubernetes version. For example, to install Kubernetes v1.29, change `core:/stable:/v1.36` to `core:/stable:/v1.29`. This replacement should be applied consistently to both the `Release.key` URL and the `deb` repository URL.
 
 - Update the apt package index and install packages
 -     sudo apt-get update
