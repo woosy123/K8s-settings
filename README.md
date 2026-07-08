@@ -27,8 +27,8 @@
 
 
 ### Installing kubeadm
-
-#### ref : [kubernetes v1.29](https://v1-29.docs.kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/)
+#### Update : Previous Kubernetes v1.29 documentation link is no longer stable. Use the current Kubernetes documentation and select the desired minor version from the official install guide.
+#### ref : [Installing kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/) (~[kubernetes v1.29](https://v1-29.docs.kubernetes.io/ko/docs/setup/production-environment/tools/kubeadm/install-kubeadm/)~)
 
 - Update the apt package index and install packages
 -     sudo apt-get update
